@@ -1,0 +1,28 @@
+.flexdiv {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    
+  }
+  .flexdiv div:first-child {
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+  .flexdiv > div {
+    width: 45%;
+  }
+  h3{
+    margin-top: 60px;
+    margin-left: 80px;
+    text-align: left;
+  }
+  
+  @media (max-width: 767px) {
+    .flexdiv {
+      display: block;
+    }
+    .flexdiv > div {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }

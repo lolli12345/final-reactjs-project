@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 50px;
+  }
+  .icon {
+    background-color: rgba(255, 255, 255, 0.216);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+  }
+  .icon:hover {
+    cursor: pointer;
+  }
+  .container > div {
+    background-color: #435c70;
+    padding: 40px;
+  }
+  .tablebody {
+    height: 450px;
+    overflow-y: scroll;
+    width: 180% !important;
+  }
+ 
+  .tablebody th{
+    padding-right: 100px;
+    color: white;
+  }
+ .tablebody td{
+    color: white;
+ }
+  
+  .addproductmodal {
+    width: 10%;
+  }
+  .addproductmodal tbody{
+    width: 10%;
+  }
+  .container div:first-child {
+    width: 57%;
+  }
+  
+  @media (max-width: 767px) {
+    .container {
+      display: block;
+      width: 100%;
+    }
+    .container div:first-child {
+      width: 81%;
+      margin-bottom: 30px;
+    }
+  }
+  button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color:#f5a623 ;
+    border: none;
+    margin-right: 20px;
+  }

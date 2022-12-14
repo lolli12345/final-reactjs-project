@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    
+}
+.container form{
+    padding:0 100px 50px 100px;
+    background:  #435c70;
+}
+.uiform{
+   padding: 50px;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+.field label{
+   color: white; 
+   font-size: 20px;
+}
+.field input{
+    width: 300px;
+    padding: 15px;
+    background-color: #54657d;
+    border: none;
+    outline-style: none;
+    color: white;
+    font-size: 20px;
+    
+}
+.loginbutton{
+    width: 330px;
+    background-color:  #f5a623;
+    padding: 15px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor:pointer;
+}
+p{
+    color: red;
+}
